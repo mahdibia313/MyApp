@@ -1,0 +1,671 @@
+body
+{
+   background-color: #323331;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_PageHeader
+{
+   clear: both;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 7777;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #454744;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PageHeader
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#PageHeader .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#PageHeader .col-1, #PageHeader .col-2, #PageHeader .col-3
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#PageHeader .col-1, #PageHeader .col-2, #PageHeader .col-3
+{
+   float: left;
+}
+#PageHeader .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 16.66666667%;
+   text-align: left;
+}
+#PageHeader .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   width: 66.66666667%;
+   text-align: center;
+}
+#PageHeader .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   width: 16.66666667%;
+   text-align: right;
+}
+#PageHeader:before,
+#PageHeader:after,
+#PageHeader .row:before,
+#PageHeader .row:after
+{
+   display: table;
+   content: " ";
+}
+#PageHeader:after,
+#PageHeader .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#PageHeader .col-1, #PageHeader .col-2, #PageHeader .col-3
+{
+   float: none;
+   width: 100%;
+}
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 15px 0px 15px 0px;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   margin: 0;
+   text-align: center;
+}
+#Heading1 a
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_panel #PanelMenu1_markup
+{
+   display: block;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover, #PanelMenu1_markup li .active
+{
+   padding: 42px 0px 23px 0px;
+   border-width: 0;
+   border-bottom-width: 0px;
+   border-radius: 0;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   color: #FF0000;
+   border: 0px #D2691E none;
+   background-color: #454744;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 29px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a:hover, #PanelMenu1_markup li a:hover, #PanelMenu1_markup li .active
+{
+   color: #FFFFFF;
+   background-color: #B7B7B7;
+   border: 0px #2E2E2E none;
+}
+#PanelMenu1_panel
+{
+   background-color: #454744;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   line-height: 57px;
+   width: 109px;
+   height: 57px;
+   position: absolute;
+}
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 12px 0px 12px 0px;
+}
+#Heading2
+{
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 29px;
+   margin: 0;
+   text-align: center;
+}
+#Heading2 a
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+#wb_Divider1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #4F4F4F;
+   background-color: rgba(79,79,79,0.39);
+   background-image: none;
+   border: 0px #4F4F4F solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+}
+#Divider1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 25px 15px 25px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#Divider1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#Divider1 .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#Divider1 .col-1
+{
+   float: left;
+}
+#Divider1 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   width: 100%;
+   text-align: center;
+}
+#Divider1:before,
+#Divider1:after,
+#Divider1 .row:before,
+#Divider1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#Divider1:after,
+#Divider1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#Divider1 .col-1
+{
+   float: none;
+   width: 100%;
+}
+}
+#Divider1-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #4F4F4F;
+   opacity: 0.39;
+}
+#wb_Carousel2
+{
+   background-color: #F2F5F7;
+   background-image: none;
+}
+#wb_Carousel2
+{
+   display: block;
+   float: left;
+   top: 0 !important;
+}
+#Carousel2 .frame
+{
+   width: 970px;
+   display: inline-block;
+   float: left;
+   height: 657px;
+}
+#wb_Carousel2 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel2 .pagination img
+{
+   border-style: none;
+   padding: 5px 5px 5px 5px;
+}
+#Carousel2 .frame-1
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/B2cggKvC26/02.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-2
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/B2cggKvC26/02.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-3
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/XTdUvCvAsh/03.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-4
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/I4sJowahmu/04.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-5
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/El77L2VEUi/05.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-6
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/IqHUI5EHYL/06.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-7
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/VCJ8HuNTYr/07.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-8
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/yURBXAllLX/08.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-9
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/8ed2bD9HIS/09.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-10
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/sViu7v4NEW/10.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-11
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/Dl9hhLdrEL/11.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-12
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/snSfIZFBiS/12.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-13
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/bDinvPWODE/13.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-14
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/okZ4rFjhXp/14.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-15
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/8JwmvJNkEn/15.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-16
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/Hkh3W3afnR/16.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-17
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/KXpc32OCj6/17.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-18
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/CxEsfYnrat/18.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-19
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/Buc9q8g0tV/19.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-20
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/AkEVuQ5aLW/20.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-21
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/kxoyZuqnEN/21.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-22
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/imub6jYgRL/22.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-23
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/8DPJvrZEAZ/23.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-24
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/w1vmijdjML/24.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#Carousel2 .frame-25
+{
+   background-color: transparent;
+   background-image: url(http://cdn.persiangig.com/preview/OdyRfjPUhy/25.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+}
+#wb_Divider4
+{
+   background-color: #323331;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#Divider4
+{
+   display: -webkit-flex;
+   display: flex;
+   padding: 9px 3px 0px 3px;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1024px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#wb_Pagination1
+{
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Pagination1
+{
+   display: inline-block;
+   list-style: none;
+   padding: 0;
+   border-radius: 4px;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 0;
+}
+#Pagination1 > li
+{
+   display: inline;
+   font-size: 13px;
+}
+#Pagination1 > li > a, #Pagination1 > li > span
+{
+   position: relative;
+   float: left;
+   padding: 6px 12px 6px 12px;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #DDDDDD solid;
+   color: #000000;
+   margin-left: -1px;
+}
+#Pagination1 > li:first-child > a, #Pagination1 > li:first-child > span
+{
+   margin-left: 0;
+   -webkit-border-bottom-left-radius: 4px;
+   -moz-border-bottom-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   -webkit-border-top-left-radius: 4px;
+   -moz-border-top-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#Pagination1 > li:last-child > a, #Pagination1 > li:last-child > span
+{
+   -webkit-border-bottom-right-radius: 4px;
+   -moz-border-bottom-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   -webkit-border-top-right-radius: 4px;
+   -moz-border-top-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#Pagination1 > li > a:hover, #Pagination1 > li > span:hover, #Pagination1 > li > a:focus, #Pagination1 > li > span:focus 
+{
+   background-color: #CCCCCC;
+   color: #23527C;
+}
+#Pagination1 > .active > a, #Pagination1 > .active > span, #Pagination1 > .active > a:hover, #Pagination1 > .active > span:hover, #Pagination1 > .active > a:focus, #Pagination1 > .active > span:focus
+{
+   z-index: 2;
+   background-color: #337AB7;
+   border-color: #337AB7;
+   color: #FFFFFF;
+   cursor: default;
+}
+#Pagination1 > .disabled > span, #Pagination1 > .disabled > span:hover, #Pagination1 > .disabled > span:focus, #Pagination1 > .disabled > a, #Pagination1 > .disabled > a:hover, #Pagination1 > .disabled > a:focus 
+{
+   background-color: #FFFFFF;
+   color: #777777;
+   cursor: not-allowed;
+}
+#wb_Heading3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
+}
+#Heading3
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0;
+   text-align: center;
+}
+#Heading3 a
+{
+   color: #000000;
+   text-decoration: none;
+}
